@@ -1,0 +1,14 @@
+p.bg {
+    font-size: 340px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: url(assets/p1.jpg) 0 0 / cover no-repeat;
+    color: #de466c;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+ }
+ 

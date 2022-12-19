@@ -1,0 +1,37 @@
+.contact {
+    padding: 120px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact .topic {
+    color: #868f97;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 50px;
+    letter-spacing: 0.23em;
+    text-transform: uppercase;
+}
+.contact .title {
+    font-size: 75px;
+    font-weight: 800;
+    position: relative;
+    color: #fff;
+}
+.contact .title::after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 0;
+    height: 6px;
+    bottom: -6px;
+    left: unset;
+    right: 0;
+    transition: width 0.2s linear;
+}
+.contact .title:hover::after {
+    width: 100%;
+    left: 0;
+    right: unset;
+}

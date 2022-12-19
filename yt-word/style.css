@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  padding: 45px;
+  flex-direction: column;
+}
+
+.box {
+  width: 400px;
+  height: 300px;
+  margin: 40px 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #3c006b;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.data {
+  width: 150px;
+  border: 1px solid #000000;
+}
+
+.data .a {
+  word-wrap: normal;
+}
+
+.data .b {
+  word-wrap: break-word;
+}

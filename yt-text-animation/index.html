@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card-content">
+      <h1>WOAH!</h1>
+      <p>Cool 3D Stuff bro!</p>
+    </div>
+  </body>
+  <script>
+    let card = document.querySelector(".card");
+
+    document.addEventListener("mousemove", function (e) {
+      let xAxis = (window.innerWidth / 2 - e.pageX) / 10;
+      let yAxis = (window.innerHeight / 2 - e.pageY) / 5;
+      card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+    });
+  </script>
+</html>

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: 10px;
+  box-shadow: 4px 4px 10px rgb(207, 207, 207);
+  color: #333;
+}
+
+::-webkit-file-upload-button {
+  padding: 6px;
+  margin-right: 10px;
+  background: #eee;
+  outline: none;
+  border: none;
+}
+
+::-webkit-file-upload-button:hover {
+  background: #1356b4;
+  color: #fff;
+}

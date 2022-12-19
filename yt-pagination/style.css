@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  padding: 40px;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* pagination 1 */
+.pagination {
+  display: inline-block;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.pagination a.active {
+  background-color: #b73132;
+  color: white;
+  border-radius: 5px;
+}
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+/* border pagination */
+.pagination-border {
+  display: inline-block;
+}
+.pagination-border a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+}
+.pagination-border a.active {
+  background-color: #b73132;
+  color: white;
+  border: 1px solid #b73132;
+}
+.pagination-border a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+/* space between pagination */
+.pagination-spacebetween {
+  display: inline-block;
+}
+.pagination-spacebetween a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+.pagination-spacebetween a.active {
+  background-color: #b73132;
+  color: white;
+  border: 1px solid #b73132;
+}
+.pagination-spacebetween a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+/* buttons*/
+
+.pagination-buttons {
+  display: inline-block;
+}
+
+.pagination-buttons a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+}
+
+.pagination-buttons a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+/* links */
+.pagination-links {
+  display: inline-block;
+}
+
+.pagination-links a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+}
+
+.pagination-links a.active {
+  background-color: #b73132;
+  color: white;
+  border: 1px solid #b73132;
+}
+
+.pagination-links a:hover:not(.active) {
+  background-color: #ddd;
+}
